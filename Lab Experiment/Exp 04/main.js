@@ -31,7 +31,7 @@ result = "FAIL";
 }
 document.getElementById("result").innerHTML =
 "Total Marks: " + total + "<br>" +
-"Average Marks: " + average.toFixed(2) + "<br>" +
+"Average Marks: " + average.toFixed(4) + "<br>" +
 "Grade: " + grade + "<br>" +
 "Result: " + result;
 }
